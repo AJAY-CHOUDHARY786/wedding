@@ -1,0 +1,35 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.pic-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.pic-headding {
+       width: 100%;
+      
+}
+.pic-section h1{
+    text-align: center ;
+    font-size: 25px;  
+    font-weight: 400; 
+    margin: 40px 0px;    
+}
+.pic-gallery{
+    width: 100%;
+    display: inline-block;
+}
+.gallery{
+    width: 30%;
+    margin: 10px;
+    background-image: url("../Component/Images/7L1A4259-scaled.webp");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: inline-block;
+   
+}
+

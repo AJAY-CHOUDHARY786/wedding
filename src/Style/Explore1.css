@@ -1,0 +1,81 @@
+.sec-6-Container1{
+    width: 100%;
+    
+}
+.sec-6-main1{
+
+
+margin: 40px 0px;
+border-radius: 6px;
+background-image: url("../Component/Images/baccc.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+padding: 98px 100px 98px 80px;
+}
+.sec-6-btn-link1{
+    margin: 20px 0px;
+}
+.sec-6-btn1{
+    font-family: sans-serif;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+   font-size: 17px;
+   font-weight: 500;
+    padding: 12px 24px;
+}
+.sec-6-btn1:hover{
+    background-color: #a04838;
+color: white;
+}
+@media(max-width:500px){
+    .sec-6-main1 {
+        margin: 20px 0px;
+        padding: 0px 10px 0px 10px;
+        font-size: 1px;
+      }
+      .sec-6-head1 h1{
+        font-size: 12px;
+        padding: 10px 0px;
+    
+      }
+      .sec-6-btn1{
+        padding: 4px 24px;
+        font-size: 12px;
+      }
+      .sec-6-btn-link1 {
+        margin: 0px 0px;
+        padding: 19px 0px;
+    }
+
+
+}
+@media screen and (min-device-width: 501px) and (max-device-width: 768px){
+
+    .sec-6-main1 {
+        margin: 20px 0px;
+        padding: 10px 10px 10px 10px;
+      }
+      .sec-6-head1 h1{
+        font-size: 22px;
+      }
+      .sec-6-btn1{
+        padding: 10px 24px;
+        font-size: 18px;
+      }
+      .sec-6-btn-link1 {
+        margin: 50px 0px 66px 0px;
+    }
+ }
+ @media screen and (min-device-width: 769px) and (max-device-width: 1024px){
+
+    .sec-6-main1 {
+        padding: 72px 100px 72px 80px;
+      }
+
+
+
+ }

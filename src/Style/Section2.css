@@ -1,0 +1,131 @@
+.service-main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-main .service-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .service-main .service-heading h2 {
+    font-size: 35px;
+  }
+  
+  .service-main .service-heading hr {
+    width: 10%;
+    height: 1px;
+    background: #000;
+    border-radius: 10px;
+  }
+  
+  .service-main .service-grid {
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    perspective: 1000px;
+  }
+  .service-main .service-grid .service-item {
+    height: 320px;
+    width: 380px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  
+    -webkit-transition-duration: 1000ms;
+    transition-duration: 1000ms;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+  
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  
+  .service-main .service-grid .service-item .service-text {
+    display: none;
+    font-size: 18px;
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+  .service-main .service-grid .service-item .service-heading {
+    font-size: 38px;
+    text-align: center;
+  }
+  
+  .service-main .service-grid .service-item:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .service-main .service-grid .service-item:hover .service-text {
+    display: block;
+    text-align: center;
+  }
+  
+  .service-main .service-grid .service-item:hover .service-heading {
+    display: none;
+    text-align: center;
+  }
+
+
+
+
+  @media (max-width: 480px) {
+
+.text{
+  font-size: 20px;
+}
+
+
+.service-grid{
+  width: 100%;
+}
+.service-main .service-grid{
+  width: 100%;
+  display: inline-block;
+  padding: 0px 20px;
+  
+}
+.service-main .service-grid .service-item{
+  width: 80%;
+  margin: 10px auto;
+}
+
+.service-main .service-heading h2 {
+  font-size: 24px;
+}
+  }
+  @media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .text{
+      font-size: 20px;
+    }
+   
+    .service-main .service-grid{
+      width: 100%;
+      display: inline-block;
+      padding: 0px 20px;
+      
+    }
+    .service-main .service-grid .service-item{
+      width: 80%;
+      margin: 10px auto;
+    }
+   }

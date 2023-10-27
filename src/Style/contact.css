@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main-container{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    height: 354px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url(https://images.unsplash.com/photo-1519944308945-afc968547a9e?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 1px 1px 5px #0000;
+  }
+  .container-1 {
+    /* background-color: yellowgreen; */
+  
+    width: 80%;
+    margin: 0px auto;
+  }
+  .div1 {
+    height: 504px;
+    margin: 20px 20px;
+    background-color: maroon;
+    display: inline-block;
+    width: 45%;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .div2 {
+    margin: 20px 20px;
+    background-color: maroon;
+    border-color: rgb(175, 15, 15);
+    display: inline-block;
+    width: 45%;
+    border-radius: 25px;
+  }
+  input {
+    text-align: left;
+    height: 40px;
+    width: 350px;
+    /* position: relative; */
+    /* top: 120px; */
+    margin: 30px 50px;
+  }
+  .btn {
+    width: 100px;
+    height: 40px;
+    margin: 30px 170px;
+    background-color: darkgray;
+    text-decoration: dotted;
+  }
+  
+  @media (max-width: 500px) {
+    .div1 {
+      width: 90%;
+      margin: 20px 18px;
+    }
+    .div2 {
+      width: 90%;
+      margin: 20px 18px;
+    }
+    input {
+      width: 66%;
+      margin: 30px 62px;
+    }
+    .btn {
+      margin: 30px 115px;
+    }
+    .container h1 {
+      font-size: 50px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .div1 {
+      width: 100%;
+      /* margin: 20px 18px; */
+    }
+    .div2 {
+      width: 100%;
+      /* margin: 20px 18px; */
+    }
+    input {
+      width: 66%;
+      /* text-align: center; */
+      /* margin: 30px 62px; */
+    }
+    .btn {
+      /* margin: 30px 360px; */
+    }
+  }
+  

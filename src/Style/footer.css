@@ -1,0 +1,138 @@
+.footer-container{
+    background-color: #c39183;
+    color: white;
+    
+}
+.footer-top{
+
+text-align: center;
+padding: 10px 0px;
+}
+.footer-section{
+text-align: center;
+width: 80%;
+display: flex;
+padding: 30px 0px 0px;
+margin:  0px auto;
+}
+
+
+.footer-inner-content{
+    width: 70%;
+    display: inline-block;
+}
+.footer-content-inner-service{
+    width: 30%;
+    display: inline-block;
+}
+
+
+.footer-content{
+
+    width: 30%;
+    display: inline-block;
+
+
+}
+.footer-content-logo {
+    width: 25%;
+    margin-left: 20px;
+    
+}
+.footer-inner-service{
+    height: 100px;
+}
+.inner-2-service p{
+    margin: 20px 0px;
+}
+.footer-inner{
+    height: 100px;
+}
+.inner-2 p{
+margin: 20px 0px;
+}
+.footer-end{
+   text-align: center;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.footer-end span a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 500px) {
+    .footer-section{
+        width: 100%;
+        display: inline-block;
+    }
+    .footer-content-logo {
+        width: 100%;
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .footer-content-inner-service {
+        display: none;
+    }
+    .footer-content {
+        width: 50%;
+        margin-left: 0px;
+        display: inline-block;
+    }
+   
+    .inner-2-service p{
+       display: none;
+    }
+    .footer-inner{
+        padding: 30px 0px;
+    }
+   
+    .footer-top {
+        
+        text-align: center;
+    }
+    .footer-inner-content {
+        width: 100%;
+   }
+   .footer-end{
+    
+     padding: 10px 10px;
+    
+ }
+}
+@media screen and (min-device-width: 501px) and (max-device-width: 1024px){
+
+    .footer-top {
+        
+        text-align: center;
+    }
+    .footer-content-logo {
+        width: 50%;
+        margin-left: 0px;
+    }
+    .footer-content-inner-service {
+        width: 33.33%;
+        
+    }
+    .footer-content-inner-service h1{
+        font-size: 15px;
+    }
+
+    .footer-content {
+        width: 33.33%;
+    }
+    .footer-content h1{
+        font-size: 15px;
+    }
+    .footer-inner {
+        padding: 30px 0px;
+    }
+    .footer-inner-service {
+        padding: 30px 0px;
+    }
+    .footer-end{
+    
+        padding: 10px 10px;
+       
+    }
+
+}

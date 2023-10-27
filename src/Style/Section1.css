@@ -1,0 +1,421 @@
+.sec-1-img{
+    background-image: url("../Component/Images/pexels-viresh-studio-1444442-scaled.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 670px;
+    display: flex;
+     justify-content: center;
+     align-items: end;
+ }
+ .text{
+    
+     color: white;
+     font-size: 45px;
+     background-color: #a04838;
+     width: 100%;
+     height: 80px;
+     opacity: 0.8;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+    
+ }
+
+ /* second section ******************************************************************************************************* */
+ .head1{
+    margin: 50px 0px;
+    text-align: center;
+ }
+ .head1 h1{
+   font-size: 35px;
+  
+ }
+ .head1 p{
+    margin: 20px 0px;
+    font-size: 19px;
+ }
+
+ .sec-2-box{
+    width: 100%;
+    
+ }
+ .box{
+    width: 80%;
+    margin: 0 auto;
+ }
+ .internal-1{
+    display: inline-block;
+    width: 23%;
+    padding: 20px;
+    background-color: #e9f4fb;
+    border-radius: 20px;
+    margin: 10px 10px;
+ }
+ .box-text{
+    display: flex;
+   
+ }
+ .box-img{
+    margin-right: 20px;
+ }
+.box-text span li{
+ text-decoration: none;
+ list-style: none;
+}
+
+
+.box-k h1{
+    font-size: 16px;
+    padding: 7px 0px;
+}
+.box-k p{
+    font-size: 13px;
+}
+
+/* third *********************************************** */
+.sec-3-box{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.sec-3-box h1{
+    text-align: center;
+    font-size: 35px;
+}
+.sec-3-main{
+    display: flex;
+    margin-top: 50px;
+}
+.sec-3-img{
+    width: 35%;
+    display: inline-block;
+}
+.sec-3-text{
+    width: 50%;
+   font-weight: 400;
+   font-family: sans-serif;
+   text-align: left;
+   line-height: 1.5;
+    font-size: 19px;
+    word-spacing: 2px;
+    display: inline-block;
+    margin-left: 100px;
+}
+.bt{
+    margin-top: 50px;
+   
+   
+}
+.btn{
+    font-family: sans-serif;
+    margin-top: 30px;
+font-size: 19px;
+ padding: 15px 30px;
+ text-decoration: none;
+    color: white;
+    background-color: #a04838;
+     border-radius: 6px;
+     border: 2px solid  #a04838;;
+}
+.btn:hover{
+    background-color:white;
+    color:  #a04838;
+    border: 2px solid  #a04838;;
+}
+
+/* ***sec-4*********************************************************** */
+
+
+.sec-4-box{
+    margin: 70px 0px;
+    width: 100%;
+    text-align: center;
+}
+.sec-4-box h1{
+   font-size: 36px;
+   font-family: sans-serif;
+}
+.six-box{
+   
+    width: 80%;
+    margin: 0px auto;
+}
+.img-div{
+    width: 35%;
+    
+}
+.box-1{
+    width: 33.33%;
+    display: inline-block;
+}
+.box-1-container {
+    display: flex;
+    margin: 20px 0px;
+}
+.link{
+    width: 60%;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.link h1{
+   text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0px;
+    color: black;
+}
+.link p {
+    color: black;
+    font-size: 14px;
+    display: inline-block;
+}
+.li{
+text-decoration: none;
+}
+
+/* ***********sec-5*************************************************************************** */
+.sec-5{
+    background-color: #f3f3f3;
+}
+.sec-5-box{
+    width: 80%;
+    padding-top: 1px;
+    margin: 0 auto;
+}
+.sec-head-1{
+    width: 50%;
+    background-image: url("../Component/Images/pexels-viresh-studio-1444442-scaled.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-5-inner{
+    display: flex;
+}
+.sec1-5-one{
+    width: 45%;
+   
+    margin: 0 15px;
+    background-color: #e5d3bd;
+    background-image: url("../Component/Images/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 15px 15px 15px;
+    padding: 28px 36px 28px 36px;
+    text-decoration: none;
+    color: black;
+
+}
+.sec1-5-box p{
+    margin: 8px 0px;
+    font-size: 14px;
+}
+.sec1-5-box h1{
+    font-size: 25px;
+}
+.sec1-5-two{
+    width: 45%;
+    
+    margin: 0 15px;
+    background-color: #dcf7f7;
+    background-image: url("../Component/Images/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px 15px 15px 15px;
+    padding: 28px 36px 28px 36px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+/* **********************sec-5******************************************* */
+
+
+
+
+@media(max-width:500px){
+    .internal-1{
+        width: 92%;
+      }
+      .head1 p {
+        
+        font-size: 12px;
+      }
+      .head1 h1 {margin: 20px 0px;
+        font-size: 25px;
+      }
+      .sec-3-box h1{
+        font-size: 25px;
+      }
+      .sec-3-main {
+        display: inline-block;
+        margin-top: 30px;
+      }
+      .sec-3-img {
+        width: 100%;
+        display: inline-block;
+      }
+      .sec-3-text {
+        width: 100%;
+        font-size: 12px;
+        display: inline-block;
+        margin: 10px 0px 0px 0px;
+      }
+      .bt {
+        margin-top: 10px;
+        text-align: center;
+      }
+      .btn {
+        font-family: sans-serif;
+        margin-top: 10px;
+        font-size: 12px;
+        padding: 15px 30px;
+      }
+      .sec-4-box h1 {
+        font-size: 25px;
+    }
+    .sec-4-box {
+        margin: 25px 0px;
+       
+      }
+      .box-1 {
+        width: 50%;
+        display: inline-block;
+      }
+      .link h1 {
+        font-size: 8px;
+        margin: 2px 0px;
+       
+    }
+    .link p {
+      font-size: 7px;
+    }
+    .sec1-5-box h1 {
+        font-size: 15px;
+    }
+    .sec1-5-box p {
+      
+        font-size: 8px;
+    }
+    .sec-5-inner {
+  display: inline-block;
+  width: 100%;
+}
+.sec1-5-one {
+  width: 95%;
+  display: inline-block;
+ 
+}
+.sec1-5-two {
+  width: 95%;
+  display: inline-block;
+ 
+}
+   
+   
+}
+@media screen and (min-device-width: 501px) and (max-device-width: 768px){
+
+   
+      .internal-1 {
+        width: 45%;}
+        .sec-3-main {
+            display: inline-block;
+            margin-top: 30px;
+          }
+          .sec-3-img {
+            width: 100%;
+            display: inline-block;
+          }
+          .sec-3-text {
+            width: 100%;
+            font-size: 22px;
+            display: inline-block;
+            margin: 10px 0px 0px 0px;
+          }
+          .bt {
+            margin-top: 10px;
+            text-align: center;
+          }
+          .btn {
+            font-family: sans-serif;
+            margin-top: 10px;
+            font-size: 12px;
+            padding: 15px 30px;
+          }
+          .box-1 {
+            width: 50%;
+            display: inline-block;
+          }
+          .link h1 {
+            font-size: 18px;
+            margin: 2px 0px;
+           
+        }
+        .link p {
+          font-size: 17px;
+        }
+        .sec-5-inner {
+            display: inline-block;
+            width: 100%;
+          }
+          .sec1-5-one {
+            width: 95%;
+            display: inline-block;
+           
+          }
+          .sec1-5-two {
+            width: 95%;
+            display: inline-block;
+           
+          }
+          .sec-6-main {
+            margin: 20px 0px;
+            padding: 10px 10px 10px 10px;
+          }
+          .sec-6-head h1{
+            font-size: 22px;
+          }
+          .sec-6-btn{
+            padding: 10px 24px;
+            font-size: 18px;
+          }
+          .sec-6-btn-link {
+            margin: 50px 0px 66px 0px;
+        }
+             
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px){
+  .service-main .service-grid{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .service-main .service-grid .service-item {
+    width: 99% !important;
+
+  }
+  .internal-1{
+    width: 22%;
+  }
+  .box-k h1 {
+    font-size: 14px;
+}
+.box-k p {
+  font-size: 9px;
+}
+.sec1-5-box h1 {
+  font-size: 22px;
+}
+.sec-6-main {
+  padding: 68px 100px 98px 80px;
+}
+}

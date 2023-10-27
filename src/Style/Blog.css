@@ -1,0 +1,35 @@
+.blog-main-container{
+    width: 80%;
+    margin: 20px auto;
+}
+.blog-page{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin: 19px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.Blogdiv-2 h3{
+    font-size: 18px;
+}
+.Blogdiv-2 h6{
+    line-height: 1.3em;
+    font-size: 12px;
+    margin-bottom: 13px;
+    color: #adadad;
+}
+.Blogdiv-2 p{
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #777;
+}
+.Readlink{
+
+    color: #61ce70 ;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+
+}
