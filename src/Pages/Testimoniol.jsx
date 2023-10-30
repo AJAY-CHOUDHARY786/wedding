@@ -31,7 +31,7 @@ const Testimoniol = () => {
               </div>
             </div>
           </div>
-          <div className="testimoniol-inner">
+          {/* <div className="testimoniol-inner">
             <div className="testimoniol-img-box">
               <img src={testimg} style={{ width: "100%" }} alt="" />
               <h3> Parul & Obiroy </h3>
@@ -74,7 +74,7 @@ const Testimoniol = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
