@@ -8,7 +8,7 @@
     height: 670px;
     display: flex;
      justify-content: center;
-     align-items: end;
+     align-items: flex-end;
  }
  .text{
     
@@ -111,7 +111,7 @@
    
    
 }
-.btn{
+.Sec-3-btn{
     font-family: sans-serif;
     margin-top: 30px;
 font-size: 19px;
@@ -122,7 +122,7 @@ font-size: 19px;
      border-radius: 6px;
      border: 2px solid  #a04838;;
 }
-.btn:hover{
+.Sec-3-btn:hover{
     background-color:white;
     color:  #a04838;
     border: 2px solid  #a04838;;
@@ -271,8 +271,11 @@ text-decoration: none;
         margin: 10px 0px 0px 0px;
       }
       .bt {
-        margin-top: 10px;
+        margin-top: 30px;
         text-align: center;
+      }
+      .Sec-3-btn {
+        font-size: 12px;
       }
       .btn {
         font-family: sans-serif;
@@ -292,19 +295,19 @@ text-decoration: none;
         display: inline-block;
       }
       .link h1 {
-        font-size: 8px;
-        margin: 2px 0px;
+        font-size: 12px;
+        margin: 2px 0px 2px 8px;
        
     }
     .link p {
-      font-size: 7px;
+      font-size: 12px;
     }
     .sec1-5-box h1 {
         font-size: 15px;
     }
     .sec1-5-box p {
       
-        font-size: 8px;
+        font-size: 10px;
     }
     .sec-5-inner {
   display: inline-block;
@@ -313,11 +316,13 @@ text-decoration: none;
 .sec1-5-one {
   width: 95%;
   display: inline-block;
+  padding: 28px 86px 28px 36px;
  
 }
 .sec1-5-two {
   width: 95%;
   display: inline-block;
+  padding: 28px 86px 28px 36px;
  
 }
    
@@ -343,7 +348,7 @@ text-decoration: none;
             margin: 10px 0px 0px 0px;
           }
           .bt {
-            margin-top: 10px;
+            margin-top: 30px;
             text-align: center;
           }
           .btn {
@@ -356,6 +361,10 @@ text-decoration: none;
             width: 50%;
             display: inline-block;
           }
+          .link {
+           
+            margin-left: 10px;
+        }
           .link h1 {
             font-size: 18px;
             margin: 2px 0px;
@@ -395,6 +404,20 @@ text-decoration: none;
              
 }
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px){
+
+
+  .link {
+           
+    margin-left: 10px;
+}
+.sec1-5-one {
+  padding: 28px 104px 28px 14px;
+ 
+}
+.sec1-5-two {
+  padding: 28px 104px 28px 14px;
+ 
+}
   .service-main .service-grid{
     width: 80%;
     margin: 0 auto;
@@ -410,7 +433,7 @@ text-decoration: none;
     font-size: 14px;
 }
 .box-k p {
-  font-size: 9px;
+  font-size: 10px;
 }
 .sec1-5-box h1 {
   font-size: 22px;

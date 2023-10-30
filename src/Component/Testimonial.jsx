@@ -86,7 +86,7 @@ const Testimonial = () => {
             const { img, name, designation, review } = d;
             return (
               <section className="testimonial" key={i}>
-                <div className="div1 eachdiv">
+                <div className="test-div1 eachdiv">
                   <div className="userdetails">
                     <div className="imgbox">
                       <img src={img} alt={img} /> 

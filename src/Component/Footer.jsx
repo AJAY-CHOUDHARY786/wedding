@@ -1,10 +1,12 @@
 import React from "react";
 import "../Style/footer.css";
 import logo from "../Component/Images/03E515B753E7AD405316CABEE4_1624521005211.webp";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 const Footer = () => {
   return (
     <>
+     <FloatingWhatsApp  />
       <section>
         <div className="footer-container">
         <div className="footer-top">

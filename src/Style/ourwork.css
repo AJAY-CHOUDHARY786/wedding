@@ -34,8 +34,8 @@
     background-size: cover;
 }
 .our-work-img:hover .work-inner{
-    background-color: rgb(0, 0, 0);
-    opacity: 0.6;
+    background-color: #00000066;
+    
     cursor: pointer;
     color: rgb(255, 255, 255);
     font-weight: 900;

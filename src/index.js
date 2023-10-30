@@ -11,6 +11,7 @@ import Destination from "./Pages/Destination";
 import Service from "./Pages/Service";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
+import Testimoniol from "./Pages/Testimoniol";
 
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="Services" element={<Service/>} />
         <Route path="Contact" element={<Contact/>} />
         <Route path="About" element={<About/>} />
+        <Route path="Testimoniol" element={<Testimoniol/>} />
 
         </Route>
       </Routes>

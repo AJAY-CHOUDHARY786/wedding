@@ -8,9 +8,22 @@ body {
   }
   .Photo{
     width: 50%;
+    height: 612px !important;
+    padding: 0px 50px 0px;
   }
   .Photo2{
     width: 50%;
+    height: 612px !important;
+    padding: 0px 50px 0px;
+  }
+
+
+  .text-photo p{
+    
+    line-height: 1.5em;
+    word-spacing: 4.2px;
+    font-size: 18px !important;
+
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -61,7 +74,9 @@ body {
     justify-content: center;
   }
   .container-text p {
-    font-size: 20px;
+    line-height: 1.5em;
+    word-spacing: 4.2px;
+    font-size: 18px !important;
     margin: 12px;
     padding: 20px;
   }

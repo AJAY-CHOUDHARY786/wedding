@@ -5,8 +5,8 @@ import left from "../Component/Images/wadding2.jpg";
 import img from "../Component/Images/7.webp";
 import Explore from "../Component/Explore";
 import Services from "../Component/Services";
-import Testimonial from "../Component/Testimonial";
 import Explore1 from "../Component/Explore1";
+import { Outlet, Link } from "react-router-dom";
 
 const Section1 = () => {
   return (
@@ -122,11 +122,11 @@ const Section1 = () => {
                   </p>
 
                   <div className="bt">
-                    {" "}
-                    <a href="" className="btn">
+                    <Link className="Sec-3-btn" to="/">
                       {" "}
-                      Know more{" "}
-                    </a>{" "}
+                      Know more
+                    </Link>
+                    <Outlet />
                   </div>
                 </div>
               </div>
@@ -142,120 +142,135 @@ const Section1 = () => {
               <div className="box-1">
                 <div className="box-1-container">
                   <div className="img-div">
-                    <a href="">
-                      {" "}
-                      <img
+                  <Link className=" " to="/">
+                  <img
                         src={img}
                         style={{ width: "100%", borderRadius: "6px" }}
                         alt=""
                       />
-                    </a>
+                     
+                    </Link>
+                   
                   </div>
                   <div className="link">
-                    <a href="" className="li">
+                  <Link className="li " to="/">
                       <h1>4 star & above hotels</h1>
                       <p>All Localities</p>
-                    </a>
+                     
+                    </Link>
+
                   </div>
                 </div>
               </div>
               <div className="box-1">
                 <div className="box-1-container">
                   <div className="img-div">
-                    <a href="">
-                      {" "}
-                      <img
+
+                  <Link className=" " to="/">
+                  <img
                         src={img}
                         style={{ width: "100%", borderRadius: "6px" }}
                         alt=""
                       />
-                    </a>
+                     
+                    </Link>
+
+                   
                   </div>
                   <div className="link">
-                    <a href="" className="li">
-                      <h1>4 star & above hotels</h1>
+                  <Link className="li " to="/">
+                  <h1>4 star & above hotels</h1>
                       <p>All Localities</p>
-                    </a>
+                     
+                    </Link>
+                    
                   </div>
                 </div>
               </div>
               <div className="box-1">
                 <div className="box-1-container">
                   <div className="img-div">
-                    <a href="">
-                      {" "}
-                      <img
+
+
+                  <Link className="li " to="/">
+                  <img
                         src={img}
                         style={{ width: "100%", borderRadius: "6px" }}
                         alt=""
                       />
-                    </a>
+                     
+                    </Link>
+                    
                   </div>
                   <div className="link">
-                    <a href="" className="li">
+                  <Link className="li" to="/">
                       <h1>4 star & above hotels</h1>
                       <p>All Localities</p>
-                    </a>
+                     
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="box-1">
                 <div className="box-1-container">
                   <div className="img-div">
-                    <a href="">
-                      {" "}
-                      <img
+                  <Link className=" " to="/">
+                  <img
                         src={img}
                         style={{ width: "100%", borderRadius: "6px" }}
                         alt=""
                       />
-                    </a>
+                     
+                    </Link>
                   </div>
                   <div className="link">
-                    <a href="" className="li">
+                  <Link className="li" to="/">
                       <h1>4 star & above hotels</h1>
                       <p>All Localities</p>
-                    </a>
+                     
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="box-1">
                 <div className="box-1-container">
                   <div className="img-div">
-                    <a href="">
-                      {" "}
-                      <img
+                  <Link className=" " to="/">
+                  <img
                         src={img}
                         style={{ width: "100%", borderRadius: "6px" }}
                         alt=""
                       />
-                    </a>
+                     
+                    </Link>
                   </div>
                   <div className="link">
-                    <a href="" className="li">
+                  <Link className="li" to="/">
                       <h1>4 star & above hotels</h1>
                       <p>All Localities</p>
-                    </a>
+                     
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="box-1">
                 <div className="box-1-container">
                   <div className="img-div">
-                    <a href="">
-                      {" "}
-                      <img
+                  <Link className=" " to="/">
+                  <img
                         src={img}
                         style={{ width: "100%", borderRadius: "6px" }}
                         alt=""
                       />
-                    </a>
+                     
+                    </Link>
                   </div>
                   <div className="link">
-                    <a href="" className="li">
+                  <Link className="li" to="/">
                       <h1>4 star & above hotels</h1>
                       <p>All Localities</p>
-                    </a>
+                     
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -274,76 +289,80 @@ const Section1 = () => {
               </div>
               <div className="sec-5-main">
                 <div className="sec-5-inner">
-                  <a href="" className="sec1-5-one">
-                    {" "}
-                    <div className="sec1-5-box">
-                      {" "}
-                      <h1>Destination wedding</h1>{" "}
-                      <p>
-                        Celebrate at a location that uniquely <br /> represents
-                        your love
-                      </p>
-                    </div>
-                  </a>
-                  <a href="" className="sec1-5-two">
-                    {" "}
-                    <div className="sec1-5-box">
-                      {" "}
-                      <h1>Destination wedding</h1>{" "}
-                      <p>
-                        Celebrate at a location that uniquely <br /> represents
-                        your love
-                      </p>
-                    </div>
-                  </a>
+                <Link className="sec1-5-one" to="/">
+                <div className="sec1-5-box">
+                     
+                     <h1>Destination wedding</h1>
+                     <p>
+                       Celebrate at a location that uniquely <br /> represents
+                       your love
+                     </p>
+                   </div>
+                     
+                    </Link>
+                    <Link className="sec1-5-two" to="/">
+                <div className="sec1-5-box">
+                     
+                     <h1>Destination wedding</h1>
+                     <p>
+                       Celebrate at a location that uniquely <br /> represents
+                       your love
+                     </p>
+                   </div>
+                     
+                    </Link>
+                  
+                  
                 </div>
                 <div className="sec-5-inner">
-                  <a href="" className="sec1-5-one">
-                    {" "}
-                    <div className="sec1-5-box">
-                      {" "}
-                      <h1>Destination wedding</h1>{" "}
-                      <p>
-                        Celebrate at a location that uniquely <br /> represents
-                        your love
-                      </p>
-                    </div>
-                  </a>
-                  <a href="" className="sec1-5-two">
-                    {" "}
-                    <div className="sec1-5-box">
-                      {" "}
-                      <h1>Destination wedding</h1>{" "}
-                      <p>
-                        Celebrate at a location that uniquely <br /> represents
-                        your love
-                      </p>
-                    </div>
-                  </a>
+                <Link className="sec1-5-one" to="/">
+                <div className="sec1-5-box">
+                     
+                     <h1>Destination wedding</h1>
+                     <p>
+                       Celebrate at a location that uniquely <br /> represents
+                       your love
+                     </p>
+                   </div>
+                     
+                    </Link>
+                    <Link className="sec1-5-two" to="/">
+                <div className="sec1-5-box">
+                     
+                     <h1>Destination wedding</h1>
+                     <p>
+                       Celebrate at a location that uniquely <br /> represents
+                       your love
+                     </p>
+                   </div>
+                     
+                    </Link>
+                  
                 </div>
                 <div className="sec-5-inner">
-                  <a href="" className="sec1-5-one">
-                    {" "}
-                    <div className="sec1-5-box">
-                      {" "}
-                      <h1>Destination wedding</h1>{" "}
-                      <p>
-                        Celebrate at a location that uniquely <br /> represents
-                        your love
-                      </p>
-                    </div>
-                  </a>
-                  <a href="" className="sec1-5-two">
-                    {" "}
-                    <div className="sec1-5-box">
-                      {" "}
-                      <h1>Destination wedding</h1>{" "}
-                      <p>
-                        Celebrate at a location that uniquely <br /> represents
-                        your love
-                      </p>
-                    </div>
-                  </a>
+                <Link className="sec1-5-one" to="/">
+                <div className="sec1-5-box">
+                     
+                     <h1>Destination wedding</h1>
+                     <p>
+                       Celebrate at a location that uniquely <br /> represents
+                       your love
+                     </p>
+                   </div>
+                     
+                    </Link>
+                    <Link className="sec1-5-two" to="/">
+                <div className="sec1-5-box">
+                     
+                     <h1>Destination wedding</h1>
+                     <p>
+                       Celebrate at a location that uniquely <br /> represents
+                       your love
+                     </p>
+                   </div>
+                     
+                    </Link>
+                  
                 </div>
               </div>
             </div>
@@ -351,24 +370,13 @@ const Section1 = () => {
         </section>
         <section>
           <div className="sec-6-container">
-
-      <div className="sec-6-testimoniols"></div>
-
-
-
-
+            <div className="sec-6-testimoniols"></div>
           </div>
-           
-
-
         </section>
 
-       <Explore/>
-       <Services/>
-       <Explore1/>
-      
-       
-       
+        <Explore />
+        <Services />
+        <Explore1 />
       </div>
     </>
   );

@@ -17,18 +17,20 @@ const Layout = () => {
             
               <Link className="link" to="/Services"> Service</Link>
             </div>
-            <a href="" className="logo">
-              <img
+
+
+            <Link className="logo" to="/"> 
+            
+            <img
                 src="https://image1.jdomni.in/storeLogo/24062021/02/36/3E/03E515B753E7AD405316CABEE4_1624521005211.png?output-format=webp"
                 alt=""
                 style={{ height: "100px" }}
               />
-            </a>
+            </Link>
+           
             <div className="left">
               <Link className="link" to="/About"> About Us</Link>
-              <a href="" className="link">
-              Testimoniols
-              </a>
+                <Link className="link" to="/Testimoniol"> Testimoniols </Link>
               <Link className="link" to="/Contact"> Contact</Link>
 
             </div>
