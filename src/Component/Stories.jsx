@@ -2,7 +2,14 @@
 import "../Style/stories.css";
 import Testimonial from "./Testimonial";
 import React, { useRef } from 'react';
-import myVideo from "../Component/Images/VN20231019_174742.mp4";
+import myVideo from "../Component/Images/SaveInsta.App - 3069837257996486167_28570223612.mp4";
+import myVideo1 from "../Component/Images/SaveInsta.App - 3216320167789656822.mp4";
+import myVideo2 from "../Component/Images/SaveInsta.App - 3186495297560038472.mp4";
+import myVideo3 from "../Component/Images/SaveInsta.App - 3211225212305976649.mp4";
+import myVideo4 from "../Component/Images/SaveInsta.App - 3186495297560038472.mp4";
+import myVideo5 from "../Component/Images/SaveInsta.App - 3224996464328879087.mp4";
+
+
 const Stories = () => {
   const videoRef = useRef(null);
   const videoStyle = {
@@ -137,31 +144,31 @@ const Stories = () => {
 
               <div className="vid-1">
                 <video ref={videoRef} controls={false}  style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo} type="video/mp4" />
+                  <source src={myVideo1} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
               <div className="vid-1">
                 <video  ref={videoRef} controls={false}  style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo} type="video/mp4" />
+                  <source src={myVideo2} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
               <div className="vid-1">
                 <video  ref={videoRef} controls={false} style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo} type="video/mp4" />
+                  <source src={myVideo3} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
               <div className="vid-1">
                 <video   ref={videoRef} controls={false} style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo} type="video/mp4" />
+                  <source src={myVideo4} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
               <div className="vid-1">
                 <video ref={videoRef} controls={false}   style={videoStyle} onClick={toggleFullScreen} >
-                  <source src={myVideo} type="video/mp4" />
+                  <source src={myVideo5} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
