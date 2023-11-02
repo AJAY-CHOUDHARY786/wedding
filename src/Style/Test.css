@@ -1,12 +1,14 @@
 .testimonial {
     height: 100%;
     width: 100%;
-   
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: auto;
+    
   }
+ 
   .react-multi-carousel-list  {
    
     margin: 30px 0px;

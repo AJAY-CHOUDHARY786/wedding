@@ -1,35 +1,18 @@
 
 import "../Style/stories.css";
 import Testimonial from "./Testimonial";
-import React, { useRef } from 'react';
+import { Outlet, Link } from "react-router-dom";
 import myVideo from "../Component/Images/SaveInsta.App - 3069837257996486167_28570223612.mp4";
 import myVideo1 from "../Component/Images/SaveInsta.App - 3216320167789656822.mp4";
-import myVideo2 from "../Component/Images/SaveInsta.App - 3186495297560038472.mp4";
+import myVideo2 from "../Component/Images/SaveInsta.App - 3221351508222656519.mp4";
 import myVideo3 from "../Component/Images/SaveInsta.App - 3211225212305976649.mp4";
 import myVideo4 from "../Component/Images/SaveInsta.App - 3186495297560038472.mp4";
 import myVideo5 from "../Component/Images/SaveInsta.App - 3224996464328879087.mp4";
+import VideoPlayer from "./VideoPlayer";
 
 
 const Stories = () => {
-  const videoRef = useRef(null);
-  const videoStyle = {
-    width: "100%",
-    padding: "20px",
-  };
 
-  const toggleFullScreen = () => {
-    if (videoRef.current) {
-      if (videoRef.current.requestFullscreen) {
-        videoRef.current.requestFullscreen();
-      } else if (videoRef.current.mozRequestFullScreen) {
-        videoRef.current.mozRequestFullScreen();
-      } else if (videoRef.current.webkitRequestFullscreen) {
-        videoRef.current.webkitRequestFullscreen();
-      } else if (videoRef.current.msRequestFullscreen) {
-        videoRef.current.msRequestFullscreen();
-      }
-    }
-    };
   return (
     <>
       <section>
@@ -41,7 +24,8 @@ const Stories = () => {
               </div>
 
               <div className="stories-sec">
-                <div className="stories-img">
+
+                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
                   <img
                     src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
                     style={{ width: "100%" }}
@@ -53,8 +37,8 @@ const Stories = () => {
                     the couple’s love story
                   </p>
                   <p>30 Dec 2021</p>
-                </div>
-                <div className="stories-img">
+                </div></Link>
+                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
                   <img
                     src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
                     style={{ width: "100%" }}
@@ -66,8 +50,8 @@ const Stories = () => {
                     the couple’s love story
                   </p>
                   <p>30 Dec 2021</p>
-                </div>
-                <div className="stories-img">
+                </div></Link>
+                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
                   <img
                     src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
                     style={{ width: "100%" }}
@@ -79,8 +63,8 @@ const Stories = () => {
                     the couple’s love story
                   </p>
                   <p>30 Dec 2021</p>
-                </div>
-                <div className="stories-img">
+                </div></Link>
+                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
                   <img
                     src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
                     style={{ width: "100%" }}
@@ -92,8 +76,8 @@ const Stories = () => {
                     the couple’s love story
                   </p>
                   <p>30 Dec 2021</p>
-                </div>
-                <div className="stories-img">
+                </div></Link>
+                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
                   <img
                     src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
                     style={{ width: "100%" }}
@@ -105,8 +89,8 @@ const Stories = () => {
                     the couple’s love story
                   </p>
                   <p>30 Dec 2021</p>
-                </div>
-                <div className="stories-img">
+                </div></Link>
+                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
                   <img
                     src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
                     style={{ width: "100%" }}
@@ -118,7 +102,9 @@ const Stories = () => {
                     the couple’s love story
                   </p>
                   <p>30 Dec 2021</p>
-                </div>
+                </div></Link>
+               
+                
               </div>
             </div>
           </div>
@@ -136,41 +122,23 @@ const Stories = () => {
             </div>
             <div className="vid-section">
               <div className="vid-1">
-                <video  ref={videoRef} controls={false} style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+              <VideoPlayer   videoSource={myVideo} />
               </div>
 
               <div className="vid-1">
-                <video ref={videoRef} controls={false}  style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo1} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <VideoPlayer   videoSource={myVideo1} />
               </div>
               <div className="vid-1">
-                <video  ref={videoRef} controls={false}  style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo2} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+              <VideoPlayer   videoSource={myVideo2} />
               </div>
               <div className="vid-1">
-                <video  ref={videoRef} controls={false} style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo3} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+              <VideoPlayer   videoSource={myVideo3} />
               </div>
               <div className="vid-1">
-                <video   ref={videoRef} controls={false} style={videoStyle} onClick={toggleFullScreen}>
-                  <source src={myVideo4} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+              <VideoPlayer   videoSource={myVideo4} />
               </div>
               <div className="vid-1">
-                <video ref={videoRef} controls={false}   style={videoStyle} onClick={toggleFullScreen} >
-                  <source src={myVideo5} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+              <VideoPlayer   videoSource={myVideo5} />
               </div>
             </div>
           </div>
@@ -218,6 +186,7 @@ const Stories = () => {
         </div>
       </section>
       <Testimonial />
+          <Outlet />
     </>
   );
 };

@@ -122,7 +122,7 @@ const Section1 = () => {
                   </p>
 
                   <div className="bt">
-                    <Link className="Sec-3-btn" to="/">
+                    <Link className="Sec-3-btn" to="/Best-wedding-planner">
                       {" "}
                       Know more
                     </Link>

@@ -35,22 +35,30 @@ const Footer = () => {
                 <h1>Service</h1>
               </div>
               <div className="inner-2-service">
-                <p>s2</p>
-                <p>s3</p>
-                <p>s4</p>{" "}
+                <p>Light System</p>
+                <p>Sound Systems</p>
+                <p>Wedding Decors</p>
+                <p>Wedding Planning</p>
+                <p>Catering Services</p>
+                <p>Decoration Services</p> 
+                <p>Destination Weddings</p>
+                <p>Host Services For Wedding</p>
+               
               </div>
             </div>
             <div className="footer-content">
               <div className="footer-inner">
-                <h1>Contactus</h1>
+                <h1>Contact-us</h1>
               </div>
               <div className="inner-2">
-                <p>s2</p>
-                <p>s3</p>
-                <p>s4</p>{" "}
+                <p>Shop No:- 405, 4Th Floor, Balaji Tower - IV Near Hotel Redisson Blu,Tonk Road, Durgapura,Jaipur, Rajasthan 302018</p>
+                <p>GENERAL:- ENQUIRIES sales@hospitalitymantra.com</p>
+                <p>CALL US:- +91-9116013948</p>
+                <p>OUR TIMING:- Mon-Sun : 10:00 AM - 08:30 PM</p>
+                      
               </div>
             </div>
-            <div className="footer-content">
+            {/* <div className="footer-content">
               <div className="footer-inner">
                 <h1>Not decide</h1>
               </div>
@@ -59,7 +67,7 @@ const Footer = () => {
                 <p>s3</p>
                 <p>s4</p>{" "}
               </div>
-            </div>
+            </div> */}
             </div>
             
            

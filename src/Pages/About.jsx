@@ -63,7 +63,7 @@ const About = () => {
 
       <section className="section">
         <section className="Photo">
-          <img src={photo} style={{width:"100%" , height:"100%"}} alt="error" />
+          <img src={photo} style={{width:"100%" , }} alt="error" />
         </section>
         <section className="text-photo">
           <p>
@@ -138,7 +138,7 @@ const About = () => {
           </p>
         </section>
         <section className="Photo2">
-          <img src={photo} style={{width:"100%", height:"100%"}}  alt="error" />
+          <img src={photo} style={{width:"100%", }}  alt="error" />
         </section>
       </section>
 

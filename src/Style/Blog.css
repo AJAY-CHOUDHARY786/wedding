@@ -33,3 +33,34 @@
     text-decoration: none;
 
 }
+@media(max-width:500px){
+    .blog-page {
+        width: 95%;
+        margin: 8px;
+       padding: 10px 10px 50px;
+    }
+    .Blogdiv-2 h3 {
+        font-size: 15px;
+    }
+    .Blogdiv-2 p {
+       
+        font-size: 12px;
+        
+    }
+    .blog-main-container{
+        width: 100%;
+        
+    }
+  
+}
+@media screen and (min-device-width: 501px) and (max-device-width: 791px){
+    .blog-page {
+        width: 45%;
+        margin: 10px;
+    }
+}
+@media screen and (min-device-width: 792px) and (max-device-width: 1440px){
+   .blog-page {
+    width: 44%;
+    }
+}

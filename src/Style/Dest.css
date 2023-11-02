@@ -29,3 +29,28 @@
     border-radius: 20px;
     cursor: pointer;
 }
+@media(max-width:500px){
+    .div-dest {
+     width: 100%;
+    }
+     
+    .dest-main-container h1{
+        font-size: 20px;
+    }
+    .dest-11 {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+@media screen and (min-device-width: 501px) and (max-device-width: 768px){
+    .dest-11 {
+        width: 40%;
+       
+    }
+}
+@media screen and (min-device-width: 769px) and (max-device-width: 1440px){
+    .dest-11 {
+        width: 40%;
+       
+    }
+}

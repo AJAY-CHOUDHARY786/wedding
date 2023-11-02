@@ -46,7 +46,13 @@
         width: 43%;
         margin: 10px 10px;
       }
-    
+      .vid-section {
+        display: inline-block !important;
+    }
+    .vid-1 {
+      width: 50% !important;
+      display: inline-block !important;
+  }
 }
 @media screen and (min-device-width: 501px) and (max-device-width: 768px){
     
@@ -80,13 +86,15 @@
   }
 
 
-
+.st-img{
+  color: black;
+}
 
 
   .vid-main{
 
  
-    width:  100%;
+    width:  95%;
     margin:  0px auto;
   }
 

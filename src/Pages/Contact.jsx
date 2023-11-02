@@ -2,7 +2,7 @@ import React from 'react'
 import "../Style/contact.css"
 import location from "../Component/Images/icons8-location.gif"
 import loc from "../Component/Images/icons8-email.gif"
-import locati from "../Component/Images/icons8-email.gif"
+import locati from "../Component/Images/icons8-call.gif"
 import locatio from "../Component/Images/icons8-time.gif"
 const Contact = () => {
   return (

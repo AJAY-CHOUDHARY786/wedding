@@ -12,6 +12,7 @@ import Service from "./Pages/Service";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Testimoniol from "./Pages/Testimoniol";
+import Bestwed from "./Pages/Bestwed";
 
 
 export default function App() {
@@ -29,7 +30,7 @@ export default function App() {
         <Route path="Contact" element={<Contact/>} />
         <Route path="About" element={<About/>} />
         <Route path="Testimoniol" element={<Testimoniol/>} />
-
+        <Route path="Best-wedding-planner" element={<Bestwed/>} />
         </Route>
       </Routes>
       <Footer/>

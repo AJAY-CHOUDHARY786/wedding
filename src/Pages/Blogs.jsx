@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+// import { Outlet, Link } from "react-router-dom";
 import Banner from "../Component/Banner";
 import "../Style/Blog.css";
 import Blogimg from "../Component/Images/Garden-Pre-Wedding-Shoot-Ideas-And-Latest-Trends-1-300x300.webp";
@@ -24,7 +24,7 @@ const Blogs = () => {
                 Garden Pre Wedding Shoot Ideas And Latest Trends- A pre-wedding
                 shoot is an esteemed custom in the realm of weddings. It
               </p>
-             <Link className="Readlink" to="/Home">Read More » </Link>
+             {/* <Link className="Readlink" to="/Home">Read More » </Link> */}
             </div>
           </div>
           <div className="blog-page">
@@ -41,7 +41,7 @@ const Blogs = () => {
                 Garden Pre Wedding Shoot Ideas And Latest Trends- A pre-wedding
                 shoot is an esteemed custom in the realm of weddings. It
               </p>
-              <Link className="Readlink" to="/Home">Read More » </Link>
+              {/* <Link className="Readlink" to="/Home">Read More » </Link> */}
             </div>
           </div>
           <div className="blog-page">
@@ -58,14 +58,14 @@ const Blogs = () => {
                 Garden Pre Wedding Shoot Ideas And Latest Trends- A pre-wedding
                 shoot is an esteemed custom in the realm of weddings. It
               </p>
-              <Link className="Readlink" to="/Home">Read More » </Link>
+              {/* <Link className="Readlink" to="/Home">Read More » </Link> */}
             </div>
           </div>
          
          
         </div>
       </div>
-      <Outlet />
+      {/* <Outlet /> */}
     </>
   );
 };
