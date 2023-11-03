@@ -13,6 +13,10 @@ import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Testimoniol from "./Pages/Testimoniol";
 import Bestwed from "./Pages/Bestwed";
+import Thai from "./Pages/Thai";
+import Dubai from "./Pages/Dubai";
+import Baku from "./Pages/Baku";
+import Singapore from "./Pages/Singapore";
 
 
 export default function App() {
@@ -31,6 +35,15 @@ export default function App() {
         <Route path="About" element={<About/>} />
         <Route path="Testimoniol" element={<Testimoniol/>} />
         <Route path="Best-wedding-planner" element={<Bestwed/>} />
+        <Route path="Thai" element={<Thai/>} />
+        <Route path="Dubai" element={<Dubai/>} />
+        <Route path="Baku" element={<Baku/>} />
+        <Route path="Singapore" element={<Singapore/>} />
+      
+
+
+
+
         </Route>
       </Routes>
       <Footer/>

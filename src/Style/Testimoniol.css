@@ -22,7 +22,7 @@
 .testimoniol-para {
     background-color: #ff000000;
    
-    height: 462px;
+    height: 522px;
     background: rgba(255, 0, 0, 0);
    position: absolute;
     color: rgba(255, 255, 255, 0);
@@ -49,7 +49,7 @@
 .testimoniol-img-box{
    text-align: center;
   
-    margin: 50px;
+    margin: 30px;
   
 }
 .testimoniol-img-box h3{
@@ -68,11 +68,12 @@
     overflow: hidden;
     cursor: pointer;
     background-color: #000000DB;
-    padding: 10px 0px;
+    padding: 0px 0px;
     width: 100%;
 }
 .testimoniol-img-box:hover .testimoniol-para p{
-      font-size: 14px;
-      padding: 0px 20px;
+      font-size: 15px;
+      padding: 30px 20px;
+      
 }
 

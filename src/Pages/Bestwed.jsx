@@ -11,8 +11,8 @@ const Bestwed = () => {
           <div className="best-wed-main-container">
             <div className="best-banner">
               <div className="bestwed-text">
-                <div className="bestwed-text-para">
-                  <p>Best-wedding-planner</p>
+                <div className="bestwed-text-para"  >
+                  <p style={{  fontsize: "30px;"}}>Best-wedding-planner</p>
                 </div>
               </div>
             </div>

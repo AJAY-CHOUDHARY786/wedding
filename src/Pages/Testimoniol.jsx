@@ -143,7 +143,7 @@ const Testimoniol = () => {
                 <h1> Paurl & Oberoi </h1>
                 <p>
                  
-                 , the best wedding planner was the best
+                  the best wedding planner was the best
                   decision I ever made for my big fat Indian wedding. The
                   intricacies and details they worked upon were commendable.
                   They suggested boho themed mehendi and The way they executed
