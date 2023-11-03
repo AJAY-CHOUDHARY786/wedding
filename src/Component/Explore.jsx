@@ -13,7 +13,8 @@ const Explore = () => {
                 <h1>Explore The Latest Trends With Shaandaar</h1>
               </div>
               <div className="sec-6-btn-link">
-                <Link    className="sec-6-btn"  to="/Blogs">    Explore   </Link>
+                {/* <Link    className="sec-6-btn"  to="/Blogs">    Explore   </Link> */}
+                <Link    className="sec-6-btn1"  to="/Blogs">    Explore   </Link>
                 <Outlet />
               </div>
             </div>
