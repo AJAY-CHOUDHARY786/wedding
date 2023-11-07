@@ -33,7 +33,7 @@
     display: inline-block;
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px){
     .stories-img {
         display: inline-block;
         width: 95%;
@@ -59,13 +59,15 @@
     
     .stories-img {
         display: inline-block;
-        width: 45%;
+        width: 44%;
       }
       .stor-img {
         width: 21%;
       }
 
-
+      .stories-img h2{
+        font-size: 20px;
+      }
 
 }
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px){
@@ -85,7 +87,22 @@
   
   }
 
+  @media(max-width: 1024px){
 
+
+    .vid1-img {
+     
+      height: 100%  !important;
+      width: 100% !important;
+     
+  }
+
+
+  }
+
+
+
+ 
 .st-img{
   color: black;
 }
@@ -103,7 +120,39 @@
  }
  .vid-1{
   width: 25%;
+  z-index: 0;
+  
  }
+.vid-cont{
+  position: relative;
+ 
+}
+.vid-cont video{
+  z-index: 0;
+}
+
+
+.vid-1 video{
+  z-index: -1;
+}
+ .vid1-img{
+
+  position: absolute;
+  top: 0%;
+  /* background-image: url("../Component/Images/wadding2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 378px;
+  width: 240px;
+  z-index: 111111111111111111;
+}
+  
+
+.vid-cont:hover  .vid1-img{
+  display: none;
+}
+ 
 
 
 

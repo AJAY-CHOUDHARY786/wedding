@@ -1,4 +1,3 @@
-
 import "../Style/stories.css";
 import Testimonial from "./Testimonial";
 import { Outlet, Link } from "react-router-dom";
@@ -9,10 +8,9 @@ import myVideo3 from "../Component/Images/SaveInsta.App - 3211225212305976649.mp
 import myVideo4 from "../Component/Images/SaveInsta.App - 3186495297560038472.mp4";
 import myVideo5 from "../Component/Images/SaveInsta.App - 3224996464328879087.mp4";
 import VideoPlayer from "./VideoPlayer";
-
+import vidimg from "../Component/Images/wadding2.jpg";
 
 const Stories = () => {
-
   return (
     <>
       <section>
@@ -24,96 +22,106 @@ const Stories = () => {
               </div>
 
               <div className="stories-sec">
-
-                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
-                  <img
-                    src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
-                    style={{ width: "100%" }}
-                    alt=""
-                  />
-                  <h2>Puneet x Zenam</h2>
-                  <p>
-                    A bewitching destination wedding that was as beautiful as
-                    the couple’s love story
-                  </p>
-                  <p>30 Dec 2021</p>
-                </div></Link>
-                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
-                  <img
-                    src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
-                    style={{ width: "100%" }}
-                    alt=""
-                  />
-                  <h2>Puneet x Zenam</h2>
-                  <p>
-                    A bewitching destination wedding that was as beautiful as
-                    the couple’s love story
-                  </p>
-                  <p>30 Dec 2021</p>
-                </div></Link>
-                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
-                  <img
-                    src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
-                    style={{ width: "100%" }}
-                    alt=""
-                  />
-                  <h2>Puneet x Zenam</h2>
-                  <p>
-                    A bewitching destination wedding that was as beautiful as
-                    the couple’s love story
-                  </p>
-                  <p>30 Dec 2021</p>
-                </div></Link>
-                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
-                  <img
-                    src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
-                    style={{ width: "100%" }}
-                    alt=""
-                  />
-                  <h2>Puneet x Zenam</h2>
-                  <p>
-                    A bewitching destination wedding that was as beautiful as
-                    the couple’s love story
-                  </p>
-                  <p>30 Dec 2021</p>
-                </div></Link>
-                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
-                  <img
-                    src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
-                    style={{ width: "100%" }}
-                    alt=""
-                  />
-                  <h2>Puneet x Zenam</h2>
-                  <p>
-                    A bewitching destination wedding that was as beautiful as
-                    the couple’s love story
-                  </p>
-                  <p>30 Dec 2021</p>
-                </div></Link>
-                <Link className=" st-img" to="/Weddingpics">  <div className="stories-img">
-                  <img
-                    src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
-                    style={{ width: "100%" }}
-                    alt=""
-                  />
-                  <h2>Puneet x Zenam</h2>
-                  <p>
-                    A bewitching destination wedding that was as beautiful as
-                    the couple’s love story
-                  </p>
-                  <p>30 Dec 2021</p>
-                </div></Link>
-               
-                
+                <Link className=" st-img" to="/Weddingpics">
+                  {" "}
+                  <div className="stories-img">
+                    <img
+                      src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
+                      style={{ width: "100%" }}
+                      alt=""
+                    />
+                    <h2>Puneet x Zenam</h2>
+                    <p>
+                      A bewitching destination wedding that was as beautiful as
+                      the couple’s love story
+                    </p>
+                    <p>30 Dec 2021</p>
+                  </div>
+                </Link>
+                <Link className=" st-img" to="/Weddingpics">
+                  {" "}
+                  <div className="stories-img">
+                    <img
+                      src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
+                      style={{ width: "100%" }}
+                      alt=""
+                    />
+                    <h2>Puneet x Zenam</h2>
+                    <p>
+                      A bewitching destination wedding that was as beautiful as
+                      the couple’s love story
+                    </p>
+                    <p>30 Dec 2021</p>
+                  </div>
+                </Link>
+                <Link className=" st-img" to="/Weddingpics">
+                  {" "}
+                  <div className="stories-img">
+                    <img
+                      src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
+                      style={{ width: "100%" }}
+                      alt=""
+                    />
+                    <h2>Puneet x Zenam</h2>
+                    <p>
+                      A bewitching destination wedding that was as beautiful as
+                      the couple’s love story
+                    </p>
+                    <p>30 Dec 2021</p>
+                  </div>
+                </Link>
+                <Link className=" st-img" to="/Weddingpics">
+                  {" "}
+                  <div className="stories-img">
+                    <img
+                      src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
+                      style={{ width: "100%" }}
+                      alt=""
+                    />
+                    <h2>Puneet x Zenam</h2>
+                    <p>
+                      A bewitching destination wedding that was as beautiful as
+                      the couple’s love story
+                    </p>
+                    <p>30 Dec 2021</p>
+                  </div>
+                </Link>
+                <Link className=" st-img" to="/Weddingpics">
+                  {" "}
+                  <div className="stories-img">
+                    <img
+                      src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
+                      style={{ width: "100%" }}
+                      alt=""
+                    />
+                    <h2>Puneet x Zenam</h2>
+                    <p>
+                      A bewitching destination wedding that was as beautiful as
+                      the couple’s love story
+                    </p>
+                    <p>30 Dec 2021</p>
+                  </div>
+                </Link>
+                <Link className=" st-img" to="/Weddingpics">
+                  {" "}
+                  <div className="stories-img">
+                    <img
+                      src="https://shaandaarevents.com/wp-content/uploads/2023/07/gfg.webp"
+                      style={{ width: "100%" }}
+                      alt=""
+                    />
+                    <h2>Puneet x Zenam</h2>
+                    <p>
+                      A bewitching destination wedding that was as beautiful as
+                      the couple’s love story
+                    </p>
+                    <p>30 Dec 2021</p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
         </div>
-
-
-
-
-
 
         <div className="vid-container">
           <div className="vid-main">
@@ -122,23 +130,110 @@ const Stories = () => {
             </div>
             <div className="vid-section">
               <div className="vid-1">
-              <VideoPlayer   videoSource={myVideo} />
+                <div className="vid-cont">
+                  <div className="vid1-img">
+                    <img
+                      src={vidimg}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        padding: "20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                  <VideoPlayer videoSource={myVideo} />
+                </div>
               </div>
 
               <div className="vid-1">
-                <VideoPlayer   videoSource={myVideo1} />
+                <div className="vid-cont">
+                  <div className="vid1-img">
+                    <img
+                      src={vidimg}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        padding: "20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                  <VideoPlayer videoSource={myVideo1} />
+                </div>
               </div>
               <div className="vid-1">
-              <VideoPlayer   videoSource={myVideo2} />
+                <div className="vid-cont">
+                <div className="vid1-img">
+                    <img
+                      src={vidimg}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        padding: "20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                <VideoPlayer videoSource={myVideo2} />
+                </div>
+               
               </div>
               <div className="vid-1">
-              <VideoPlayer   videoSource={myVideo3} />
+              <div className="vid-cont">
+              <div className="vid1-img">
+                    <img
+                      src={vidimg}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        padding: "20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                {/* <VideoPlayer videoSource={myVideo2} /> */}
+                <VideoPlayer videoSource={myVideo3} />
+                </div>
+
+              
               </div>
               <div className="vid-1">
-              <VideoPlayer   videoSource={myVideo4} />
+              <div className="vid-cont">
+              <div className="vid1-img">
+                    <img
+                      src={vidimg}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        padding: "20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                {/* <VideoPlayer videoSource={myVideo2} /> */}
+                <VideoPlayer videoSource={myVideo4} />
+                </div>
+               
               </div>
+
               <div className="vid-1">
-              <VideoPlayer   videoSource={myVideo5} />
+              <div className="vid-cont">
+              <div className="vid1-img">
+                    <img
+                      src={vidimg}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        padding: "20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                {/* <VideoPlayer videoSource={myVideo2} /> */}
+                <VideoPlayer videoSource={myVideo5} />
+                </div>
+               
               </div>
             </div>
           </div>
@@ -186,7 +281,7 @@ const Stories = () => {
         </div>
       </section>
       <Testimonial />
-          <Outlet />
+      <Outlet />
     </>
   );
 };

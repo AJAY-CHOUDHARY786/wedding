@@ -19,7 +19,7 @@ margin:  0px auto;
 
 .footer-inner-content{
     width: 70%;
-    display: inline-block;
+    display: flex;
 }
 .footer-content-inner-service{
     width: 30%;

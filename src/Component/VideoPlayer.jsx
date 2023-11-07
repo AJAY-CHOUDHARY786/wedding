@@ -4,6 +4,7 @@ function VideoPlayer({ videoSource }) {
     const videoStyle = {
         width: "100%",
         padding: "20px",
+        
       };
 
 
@@ -67,9 +68,9 @@ function VideoPlayer({ videoSource }) {
   };
   return (
     <div>
-      <video ref={videoRef} controls={false} autoPlay loop muted onClick={toggleFullScreen}  style={videoStyle} >
+      <video ref={videoRef} controls autoPlay loop muted onClick={toggleFullScreen}  style={videoStyle} >
         <source src={videoSource} type="video/mp4" />
-        Your browser does not support the video tag.
+       
       </video>
     </div>
   );
