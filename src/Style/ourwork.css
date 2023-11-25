@@ -45,6 +45,7 @@
 }
 
 .work-inner{
+    height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -53,7 +54,7 @@
 }
 .work-head{
     color: transparent;
-   
+    text-align: center;
    
 }
  .work-inner .para-link {
@@ -110,7 +111,7 @@
         
     }
     .our-work-img{
-        width: 46%;
+        width: 45%;
         height: 250px;
         display: inline-block;
         margin: 20px 12px;
