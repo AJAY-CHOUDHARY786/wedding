@@ -10,7 +10,7 @@ padding: 10px 0px;
 }
 .footer-section{
 text-align: left;
-width: 80%;
+width: 98%;
 display: flex;
 padding: 30px 0px 0px;
 margin:  0px auto;
@@ -114,6 +114,12 @@ font-size: 14px;
 }
 
 @media screen and (min-device-width: 501px) and (max-device-width: 768px){
+
+
+    .footer-section {
+       
+        width: 95%;
+    }
     .footer-inner-logo{
         text-align: center;
     }
@@ -184,7 +190,7 @@ font-size: 14px;
         font-size: 12px;
     }
     .inner-2-service p {
-        line-height: 2.5;
+        line-height: 1.5;
         font-size: 12px;
     }
 
