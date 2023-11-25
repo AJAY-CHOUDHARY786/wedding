@@ -112,7 +112,23 @@ font-size: 14px;
     
  }
 }
-@media screen and (min-device-width: 501px) and (max-device-width: 1024px){
+
+@media screen and (min-device-width: 501px) and (max-device-width: 768px){
+    .footer-inner-logo{
+        text-align: center;
+    }
+    .inner-2 p {
+        line-height: 1.79 !important;
+        font-size: 12px;
+    }
+    .inner-2-service p {
+        line-height: 2.5 !important;
+        font-size: 12px;
+    }
+    .footer-content-logo {
+        margin-left: 0;
+        width: 30%;
+    }
     .footer-inner-logo{
         text-align: center;
     }
@@ -160,22 +176,6 @@ font-size: 14px;
         padding: 10px 10px;
        
     }
-   
-
-}
-@media screen and (min-device-width: 501px) and (max-device-width: 768px){
-    .footer-inner-logo{
-        text-align: center;
-    }
-    .inner-2 p {
-        line-height: 1.79 !important;
-        font-size: 12px;
-    }
-    .inner-2-service p {
-        line-height: 2.5 !important;
-        font-size: 12px;
-    }
-
 }
 @media screen and (min-device-width: 501px) and (max-device-width: 1024px){
 
