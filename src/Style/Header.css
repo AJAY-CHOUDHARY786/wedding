@@ -53,7 +53,7 @@
       padding-left: 60px;
   }
     .ham-icon {
-      display: inline-block;
+      display: flex;
      
       width: 25%;
     }
@@ -78,7 +78,7 @@
       padding-left: 112px;
   }
     .ham-icon {
-      display: inline-block;
+      display: flex;
      
       width: 20%;
     }
