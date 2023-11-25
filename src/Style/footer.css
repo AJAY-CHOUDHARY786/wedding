@@ -43,7 +43,7 @@ margin:  0px auto;
     height: 100px;
 }
 .inner-2-service p{
-   line-height: 2.5;
+   line-height: 1.5;
     font-size: 14px;
 }
 .footer-inner{
@@ -128,7 +128,7 @@ font-size: 14px;
         font-size: 12px;
     }
     .inner-2-service p {
-        line-height: 2.5 !important;
+       
         font-size: 12px;
     }
     .footer-content-logo {
