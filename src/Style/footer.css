@@ -63,6 +63,9 @@ font-size: 14px;
     color: white;
 }
 @media (max-width: 500px) {
+    .inner-2 {
+        padding: 10px;
+    }
     .footer-inner-logo{
         text-align: center;
     }
@@ -79,7 +82,8 @@ font-size: 14px;
         display: inline-block;
     }
     .footer-content {
-        width: 50%;
+        width: 100%;
+        text-align: center;
        
     }
     .footer-content-logo {
@@ -89,11 +93,15 @@ font-size: 14px;
     }
     
     .footer-content-inner-service {
-        width: 50%;
+        width: 100%;
         margin-left: 0px;
         display: inline-block;
+        text-align: center;
     }
-   
+    .footer-inner {
+       
+        padding: 34px;
+    }
    
     .footer-inner-service{
         padding: 30px 0px;
